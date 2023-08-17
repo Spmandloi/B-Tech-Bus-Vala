@@ -1,0 +1,70 @@
+/* Header.css */
+
+.App-header {
+  background-color: orange;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  background-color: #555;
+  border-radius: 0.25rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #333;
+  min-width: 150px;
+  padding: 0.5rem 0;
+  border-radius: 0.25rem;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+  border-radius: 0.25rem;
+}
+
+.dropdown-menu-end {
+  right: 0;
+}
+
+.dropdown-menu li:last-child .dropdown-item {
+  border-bottom: none;
+}

@@ -1,0 +1,17 @@
+/* StudentTableRow.css */
+.edit-link {
+    margin-right: 8px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .delete-btn {
+    margin-left: 8px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
